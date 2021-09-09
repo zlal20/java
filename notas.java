@@ -30,7 +30,7 @@ public class notas {
 
         // formula
 
-        resultado = (promedio1 + promedio2 + promedio3 + promedio4 + promedio5);
+        resultado = (promedio1 + promedio2 + promedio3 + promedio4 + promedio5) / 5;
 
         if (resultado > 7) {
 

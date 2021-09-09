@@ -25,7 +25,7 @@ public class meses {
 
         } else {
 
-            System.out.println("error debes escoger un numero entre el 1 y el 12");
+            System.out.println("error debes escoger un numero entre el mes 1 y el 12");
 
         }
 

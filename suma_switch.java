@@ -15,9 +15,35 @@ public class suma_switch {
 
         switch (opcion) {
 
-            case 1:
+            case 0:
                 System.out.println("selecionaste suma");
                 System.out.println("digita el primer valor");
+                numero1 = sc.nextDouble();
+
+                System.out.println("digita el segundo valor");
+                numero2 = sc.nextDouble();
+
+                resultado = (numero1 + numero2);
+                System.out.println("el resultado es" + resultado);
+
+                break;
+
+            case 2:
+
+                System.out.println("selecionaste resta");
+                System.out.println("digita el primer valor");
+                numero1 = sc.nextDouble();
+
+                System.out.println("digita el segundo valor");
+                numero2 = sc.nextDouble();
+
+                resultado = (numero1 - numero2);
+                System.out.println("el resultado es" + resultado);
+
+                break;
+            default:
+                System.out.println("error debes de ingresar un numero valido");
+                break;
 
         }
 

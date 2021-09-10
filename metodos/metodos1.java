@@ -1,8 +1,8 @@
+package metodos;
 
-//calcukar el area de un triangulo con metodos 
 import java.util.Scanner;
 
-public class llamada_metodo {
+class llamada_metodo {
 
     double area, base, altura;
     Scanner sc = new Scanner(System.in);
@@ -33,11 +33,11 @@ public class llamada_metodo {
 
 }
 
-public class metodos1 {
+class metodos1 {
 
     public static void main(String[] args) {
 
-        metodos1 objeto = new metodos1();
+        llamada_metodo objeto = new llamada_metodo();
         objeto.PedirDatos();
         objeto.calcular();
         objeto.mostrar();

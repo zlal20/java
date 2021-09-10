@@ -2,7 +2,7 @@
 //calcukar el area de un triangulo con metodos 
 import java.util.Scanner;
 
-public class metodos1 {
+public class llamada_metodo {
 
     double area, base, altura;
     Scanner sc = new Scanner(System.in);
@@ -28,6 +28,19 @@ public class metodos1 {
     public void mostrar() {
 
         System.out.println("el area es" + area);
+
+    }
+
+}
+
+public class metodos1 {
+
+    public static void main(String[] args) {
+
+        metodos1 objeto = new metodos1();
+        objeto.PedirDatos();
+        objeto.calcular();
+        objeto.mostrar();
 
     }
 

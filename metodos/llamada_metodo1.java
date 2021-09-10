@@ -8,7 +8,8 @@ public class llamada_metodo1 {
         metodos1 objeto = new metodos1();
         objeto.PedirDatos();
         objeto.calcular()
-        objeto.mostrar();
+        objeto.mostrar()
+        objeto.validar();
 
 
 
